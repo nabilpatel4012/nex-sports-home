@@ -76,7 +76,7 @@ export default function AboutUsPage() {
                 <div>
                   <h2 className="text-3xl font-bold mb-4">What We Do</h2>
                   <p className="text-muted-foreground text-lg leading-relaxed">
-                    We build robust, user-centric platforms that empower venue owners to manage operations effortlessly and enable players to book games instantly.
+                    We are passionate about transforming businesses with cutting-edge solutions that enhance profitability and establish a strong online presence.
                   </p>
                 </div>
               </div>

@@ -44,7 +44,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#contact"
                   className="text-muted-foreground hover:text-primary transition-colors text-sm cursor-pointer"
                 >
                   Pricing
@@ -59,7 +59,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="#about"
+                  href="/about-us"
                   className="text-muted-foreground hover:text-primary transition-colors text-sm cursor-pointer"
                 >
                   About Us
