@@ -46,7 +46,7 @@ export function ContactSection() {
     setError(null)
 
     try {
-      const response = await fetch("https://api.nexsports.in/query", {
+      const response = await fetch("https://query-api.nexsports.in/query", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
