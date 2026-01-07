@@ -75,12 +75,11 @@ export function Navigation() {
           </div>
 
           <div className="hidden md:block">
-            <Button
-              onClick={() => scrollToSection("contact")}
-              className="bg-primary text-primary-foreground hover:bg-primary/90"
-            >
-              Get Started
-            </Button>
+            <Link href="https://app.nexsports.in">
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
+                Book Now
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -118,12 +117,11 @@ export function Navigation() {
             >
               Contact
             </button>
-            <Button
-              onClick={() => scrollToSection("contact")}
-              className="bg-primary text-primary-foreground hover:bg-primary/90 w-full"
-            >
-              Get Started
-            </Button>
+            <Link href="https://app.nexsports.in" onClick={() => setIsMobileMenuOpen(false)}>
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 w-full">
+                Book Now
+              </Button>
+            </Link>
           </div>
         )}
       </div>

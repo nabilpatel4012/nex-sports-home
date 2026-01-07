@@ -151,7 +151,7 @@ export function ContactSection() {
               </a>
 
               <a 
-                href="tel:+917522992713"
+                href="tel:+919356485471"
                 className="group flex items-start gap-5 bg-card/50 backdrop-blur-sm rounded-2xl p-6 border border-border/50 hover:border-secondary/50 hover:bg-card/80 transition-all duration-300 hover:shadow-lg hover:shadow-secondary/5 cursor-pointer"
               >
                 <div className="w-14 h-14 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:rotate-3 transition-all">
@@ -159,7 +159,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-bold text-card-foreground mb-2 text-lg">Call Us</h4>
-                  <p className="text-muted-foreground group-hover:text-primary transition-colors">+91 75229 92713</p>
+                  <p className="text-muted-foreground group-hover:text-primary transition-colors">+91 9356485471</p>
                 </div>
               </a>
             </div>

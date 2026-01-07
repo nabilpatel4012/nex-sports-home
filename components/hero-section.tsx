@@ -41,19 +41,7 @@ export function HeroSection() {
               isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-12"
             }`}
           >
-            <div className="inline-block">
-              <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-                Built by Team{" "}
-                <a
-                  href="https://nexpictora.com?redirectFrom=NexSports"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:underline cursor-pointer"
-                >
-                  NexPictora
-                </a>
-              </span>
-            </div>
+
 
             <h1 className="text-5xl md:text-7xl font-bold text-foreground text-balance leading-tight">
               Book Your Game, <span className="text-primary">Anytime</span>
